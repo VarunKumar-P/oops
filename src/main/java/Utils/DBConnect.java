@@ -18,7 +18,7 @@ public class DBConnect {
 
         prop.load(input);
 
-        String host = prop.getProperty("host");
+        String host =  prop.getProperty("host");
         String uName = prop.getProperty("user");
         String pass = prop.getProperty("pwd");
 
